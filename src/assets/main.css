@@ -1,5 +1,5 @@
 * {
-    font-family: Poppins;
+    font-family: Poppins !important;
 }
 
 body {
@@ -11,6 +11,13 @@ body {
     display: flex;
     height: 100vh;
     /* Set the container height to full viewport height */
+}
+
+.parent-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Adjust this value to your desired height */
 }
 
 .container-center {
@@ -27,7 +34,7 @@ body {
 
 /* google button */
 
-.login-with-google-btn {
+.google-btn {
     transition: background-color .3s, box-shadow .3s;
 
     width: 100%;
@@ -83,4 +90,72 @@ body {
     line-height: 60px;
     letter-spacing: 0em;
     text-align: center;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+.secundary-title {
+    font-family: Poppins;
+    color: #021E25;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+}
+
+.add-button {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #036773;
+    cursor: pointer;
+}
+
+.sign-message {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #757575;
+}
+
+.sign-message a {
+    color:#37A6A5;
+}
+
+.perfil-redondo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.perfil-redondo img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.main-menu {
+    padding: 15% 10% 10% 30%;
+}
+
+.main-menu .logo {
+    margin-bottom: 5px;
+}
+
+/* change element ui element*/
+
+.el-button--primary {
+    background: #37A6A5 !important;
+    font-family: Poppins !important;
+}
+
+.el-switch.is-checked .el-switch__core {
+    background: #37A6A5 !important;
 }

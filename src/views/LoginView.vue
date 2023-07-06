@@ -11,24 +11,14 @@
     </el-col>
     <el-col class="container-center" :span="12">
       <el-form class="content">
-        <el-form-item>
+        <el-form-item class="parent-center">
           <h3 class="title">Iniciar sesión</h3>
         </el-form-item>
-        <!--
-        <el-form-item label="Username">
-          <el-input v-model="email"/>
-        </el-form-item>
-        <el-form-item label="Password">
-          <el-input v-model="password"  type="password"/>
-        </el-form-item>
-        <el-form-item>
-          <el-button type="primary">Ingresar</el-button>
-        </el-form-item> -->
         <el-form-item align-center>
-          <button class="login-with-google-btn"
+          <button class="google-btn"
             @click="signInWithGoogle">Ingresar con google</button>
         </el-form-item>
-        <el-form-item>
+        <el-form-item class="sign-message">
           <p>¿No tienes una cuenta? Regístrate como&nbsp;</p>
           <router-link to="/signup"><a>
               Create an Account!

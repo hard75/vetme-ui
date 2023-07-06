@@ -4,6 +4,7 @@ import HomeView from '../views/HomeView.vue'
 import Login from '../views/LoginView.vue'
 import Signup from '../views/SignUp.vue'
 import Authorize from '../views/AuthorizeView.vue'
+import newUser from '../views/newUserView.vue';
 
 const router = createRouter({
   history: createWebHistory(),
@@ -27,6 +28,11 @@ const router = createRouter({
       path: '/authorize',
       name: 'authorize',
       component: Authorize
+    },
+    {
+      path: '/newUser',
+      name: 'newUser',
+      component: newUser
     }
   ]
 })

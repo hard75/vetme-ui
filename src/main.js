@@ -13,7 +13,6 @@ createApp(App)
   .use(ElementPlus)
   .mount('#app')
 
-
 const startGapi = () => {
   gapi.load('client', async () => {
     await gapi.client.init({
