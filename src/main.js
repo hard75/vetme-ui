@@ -6,6 +6,7 @@ import { gapi } from 'gapi-script';
 import ElementPlus from 'element-plus';
 import 'element-plus/theme-chalk/index.css';
 import './assets/main.css';
+import 'typeface-poppins';
 
 createApp(App)
   .use(router)

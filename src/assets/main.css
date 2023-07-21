@@ -151,6 +151,10 @@ body {
 
 /* change element ui element*/
 
+.el {
+    font-family: Poppins !important;
+}
+
 .el-button--primary {
     background: #37A6A5 !important;
     font-family: Poppins !important;
@@ -158,4 +162,8 @@ body {
 
 .el-switch.is-checked .el-switch__core {
     background: #37A6A5 !important;
+}
+
+.el-menu-item.is-active {
+    color: #37A6A5;
 }
